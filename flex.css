@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 100px;
+    font-family: Helvetica;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 86, 86);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 3fr 70px;
+    height: 100hv;
+    width: 75%;
+    background-color: rgb(246, 241, 241);
+}
+
+.Profile {
+    border-radius: 50%;
+    grid-column: 1 / 2;
+    height: 220px;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.star {
+    width: 120px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-column: 2 / 3;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.text {
+    margin: 0px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / 2;
+    background-color: rgb(37, 227, 37);
+    grid-row: 2 / 3;
+}
+
+.call {
+    width: 100%;
+    background-color: rgb(137, 212, 137);
+    height: 100%;
+    font-size: 20px;
+}
+
+.chat {
+    width: 100%;
+    background-color: rgb(109, 186, 109);
+    height: 100%;
+    font-size: 20px;
+}
